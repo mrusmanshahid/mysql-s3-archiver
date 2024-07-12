@@ -1,0 +1,23 @@
+- identifier: <my_database_identifier>
+  is_cluster: false # true for aurora-mysql and false for community-mysql
+  database_name: my_mysql_schema
+  table_name: my_table
+  method: unix_timestamp # The method used for the range partitioning
+  archive_period: 12 # This will archive 12 months older partitions
+  s3_bucket: my_data_bucket
+  s3_archive_path: /my_service/my_env/my_table/
+  env: dev
+  brand: ex
+  country: eu
+
+- identifier: <my_database_identifier_2>
+  is_cluster: false # true for aurora-mysql and false for community-mysql
+  database_name: my_mysql_schema_2
+  table_name: my_table_2
+  method: unix_timestamp # The method used for the range partitioning
+  archive_period: 10 # This will archive 12 months older partitions
+  s3_bucket: my_data_bucket
+  s3_archive_path: /my_service/my_env/my_table_2/
+  env: dev
+  brand: ex
+  country: eu
