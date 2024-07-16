@@ -6,7 +6,7 @@ The automation is designed to peform deep archival for any mysql partitioned tab
 
 ## How it works?
 
-The aim of the datalife cycle project is to archive data out from rds to s3 in dedicated bucket for each month.
+The aim of this project is to archive data out from rds to s3 in dedicated bucket for x month.
 
 - The automation will first create control table at the destination db
 - The automation will pick the partition to archive using method `to_days` and `unix_timestamp`
