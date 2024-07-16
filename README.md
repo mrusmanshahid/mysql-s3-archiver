@@ -92,6 +92,6 @@ In order to onboard, new table follow the following steps
 
 ## How to Run
 After setting the environment, run `main` to start the process
-`python3 main.py <file_path>`
+`python3 automation/main.py <file_path>`
 
 The script is designed to restart from the point of failure in case of crash in between so it should not be a problem.
