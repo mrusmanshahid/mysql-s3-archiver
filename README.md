@@ -2,7 +2,7 @@
 
 The automation is designed to peform deep archival for any mysql partitioned table from rds/aurora to s3 and athena for querying the data. The automation also supports importing data to redshift directly as well
 
-![workflow](img/workflow.png.png)
+![workflow](img/workflow.png)
 
 ## How it works?
 
