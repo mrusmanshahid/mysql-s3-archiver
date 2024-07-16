@@ -2,6 +2,8 @@
 
 The automation is designed to peform deep archival for any mysql partitioned table from rds/aurora to s3 and athena for querying the data. The automation also supports importing data to redshift directly as well
 
+![workflow](img/workflow.png.png)
+
 ## How it works?
 
 The aim of the datalife cycle project is to archive data out from rds to s3 in dedicated bucket for each month.
