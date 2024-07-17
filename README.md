@@ -36,7 +36,7 @@ You are required to modify `env.py` file
 In order to onboard, new table follow the following steps
 
 ##### 1. Setup Directory 
- - Add a new folder under the config directory with `yaml`
+ - Add a new folder under the `configs` directory with `yaml`
  - for example: `configs/my_cool_app/fancy_env.yaml`
 
 ##### 2. Setup Table Configuration
